@@ -53,7 +53,6 @@ if not newSound then
 else
 	newSound:write(dataContent)
 	newSound:close()
-	exit()
 	print("OOF successfully restored <3")
+	exit()
 end
-
