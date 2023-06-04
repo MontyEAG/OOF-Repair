@@ -51,10 +51,9 @@ if not newSound then
   return
   exit()
 else
-	print("OOF successfully restored <3")
+	newSound:write(dataContent)
+	newSound:close()
 	exit()
+	print("OOF successfully restored <3")
 end
-
-newSound:write(dataContent)
-newSound:close()
 
